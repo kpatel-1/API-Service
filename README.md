@@ -5,7 +5,7 @@ To provide a website for those who are health conscious, so they can keep their 
 # Front-end | Website
 This will have the user interface (UI) and the users will be able to interact with the website and as per their choices on the site, the result would be displayed.
 * `Register`: User will input required details, message will be sent through RabbitMQ, and inserted into an SQL database.
-* `Login`: User will input required details, message will be sent through RabbitMQ & authenticated.
+* `Login`: User will input required details, message will be sent through RabbitMQ & authenticated based on response.
 * `API`: User will be able to submit queries and pull information based on their request. 
 
 # RabbitMQ
